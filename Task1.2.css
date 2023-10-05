@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url("file:///C:/Users/athar/Desktop/INFOBYTE/port.jpg");
+    background-size: cover ;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box{
+    height: 86vh;
+    width:75%;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255,0.1);
+    border:2px solid rgba(255,255,255,0.7);
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10,0.10);
+}
+
+.container nav{
+    height: 7%;
+    width:90%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    padding:20px;
+}
+
+.container .logo{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: red;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.container nav ul li{
+    display: inline-block;
+    padding:0 20px;
+    text-align: right;
+    font-size: 50;
+}
+
+.container nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.container nav ul li a:hover{
+    color:white;
+    transition:0.3s;
+}
+
+.section#skills {
+    margin-top: 0px;
+    padding: 0;
+    background-image: url("file:///C:/Users/athar/Desktop/INFOBYTE/port1.jpg");
+    background-size: cover ;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.section#skills h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: red;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    white-space: 80px;
+}
+
+.col-sm { 
+    margin:0;
+    padding:30px;
+}
+
+.section#contact {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-image: url("file:///C:/Users/athar/Desktop/INFOBYTE/port1.jpg");
+    background-size: cover ;
+    background-position: center;
+}
+
+.section#contact h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color:red;
+    justify-content: center;
+    align-items: center;
+}
+
+.section#contact p {
+    font-size: 15px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.fotter-link {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.fotter-link:hover {
+    color: red;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.content{
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8%;
+    padding-left: 80px;
+}
+
+.content .section-1{
+    position: relative;
+    width: 40%;
+}
+
+.content .section-1 h1{
+    margin-bottom: 20px;
+    font-size: 33px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.content .section-1 h3{
+    font-size: 15px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.content .section-1 p{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.content .btn{
+    padding: 15px 10px;
+    border-radius: 6px;
+    background-color:red;
+    border: red;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3s;
+    color:#fff;
+}
+
+.content .btn:hover{
+    background-color: #fff;
+    color:#6f34fe;
+}
+
+.content .section-2{
+    width:60%;
+    position:relative;
+}
+
+.content .section-2::after{
+    content:'';
+    position:absolute;
+    border-radius: 50%;
+    width:300px;
+    height:300px;
+    z-index:-1;
+    top:20px;
+    left:24%;
+}
+
+.content .section-2 img{
+    width:60%;
+    height:50vh;
+    margin-left: 80px;
+}
+
+.content .social{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+}
+
+.content .social a i{
+    font-size: 25px;
+    color:black;
+    transition:0.3s;
+}
